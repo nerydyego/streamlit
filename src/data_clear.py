@@ -46,7 +46,8 @@ def valores_faltantes(data: pd.DataFrame, atr: str, metodo: str)-> None:
             print("Método inválido. Metodos aceitos são ('mean', 'median' ou 'mode').")
             return     
         
-        data[atr] = data[atr].fillna(valor, inplace=True)
+        data[atr] = data[atr].fillna(valor)
+        
         print(f"O atributo {atr} teve nulos ou faltantes substituidos por {metodo}: {valor}")
     
     except Exception as e:
