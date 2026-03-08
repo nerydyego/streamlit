@@ -30,9 +30,9 @@ def baixar_arquivo(url: str, pasta_destino: str, nome_arquivo: str) -> None:
         with open(caminho_completo, 'wb') as f:
             f.write(resposta.content)
             
-        print(f"✅ Sucesso! Arquivo salvo em: {caminho_completo}")
+        print(f"Sucesso! Arquivo salvo em: {caminho_completo}")
 
     except requests.exceptions.HTTPError as err:
-        print(f"❌ Erro HTTP: {err}")
+        print(f"Erro HTTP: {err}")
     except Exception as e:
-        print(f"❌ Ocorreu um erro inesperado: {e}")
+        print(f"Ocorreu um erro inesperado: {e}")
