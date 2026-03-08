@@ -87,4 +87,3 @@ Este projeto foi desenvolvido com foco educacional e profissional:
 
 * Dataset: Repositório público de dados financeiros.
 * Metodologia: Ciclo de vida CRISP-DM simplificado, com auxílio de videoaulas.
-* Desenvolvimento Colaborativo: Refinamento lógico e estrutural realizado com suporte de IA Colaborativa (Gemini).
