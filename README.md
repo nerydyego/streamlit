@@ -2,7 +2,8 @@
 
 # 🏦 Previsão de Limite de Crédito Bancário com Machine Learning
 
-(![alt text](image.png)) Este projeto é uma solução completa de Ciência de Dados voltada para o setor financeiro. O objetivo principal é auxiliar instituições bancárias na predição automática do limite de crédito a ser concedido a novos clientes, utilizando algoritmos de regressão e uma interface interativa para o usuário final.
+Este projeto é uma solução completa de Ciência de Dados voltada para o setor financeiro. O objetivo principal é auxiliar instituições bancárias na predição automática do limite de crédito a ser concedido a novos clientes, utilizando algoritmos de regressão e uma interface interativa para o usuário final.
+![alt text](image.png)
 
 ---
 
